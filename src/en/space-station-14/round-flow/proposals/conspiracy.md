@@ -1,19 +1,8 @@
-# Short, Properly Capitalized Title
-
-Your title should convey the basic jist of your proposed changes. It should be short because the text will be linked in the sidebar.
+# Conspiracy gamemode
 
 | Designers | Implemented | GitHub Links |
 |---|---|---|
 | Vortebo | :x: No | TBD |
-
-`Designers` should be the names that you use on GitHub and/or Discord. This is optional but strongly recommended, since:
-
-- This acknowledges credit where it is due
-- People who are confused about the written intent can use this information to contact the authors
-
-`Implemented` is the status of the feature.
-
-Github links can include multiple PRs, if relevant.
 
 ## Overview
 
@@ -29,7 +18,37 @@ Also link any relevant discussions on Discord, GitHub, or HackMD that are releva
 
 Give a description of what game mechanics you would like to add or change. This should be a general overview, with enough details on critical design points that someone can directly implement the feature from this design document. Exact numbers for game balance however are not necessary, as these can be adjusted later either during development or after it has been implemented, but mention *what* will have to be balanced and what needs to be considered when doing so.
 
+**Conspirator Goals**
+
+The conspirators must complete a series of tasks and then escape to centcomm alive and unrestrained. Major victory when that happens. Minor victories when at least one level two task is completed and/or some number of conspirators make it to centcomm. Crew victory when every conspirator is dead or detained. Tasks come in (three?) difficulties. Complete (three?) level one tasks to move to level two. Two levels twos to level three. X level three to finish the series.
+
+Level 1  (explicitly requires every conspirator to participate, to make sure people come together)
+
+- Everybody hugs the captain (3x times?)
+- Graffitti [word] outside [department]. Everyone must contribute one letter
+- Everybody must possess X number of [item]
+  - Items could include medkits, 
+- ?
+
+Level 2
+- Ine
+- to
+- free?
+
+Here's where I just list a bunch of ideas I've had and like I dunno how many difficulty levels there will be so like
+Switch/rename beacons
+Move [object] from [department A] to [department B]
+Stockpile X number of [item]
+Weld crewmembers [person 1] - [person ?3?] in the same closet
+  Space the closet
+Everybody eats one of the captain's organs
+50% of hallways must be covered in liquid
+Everyone has all access
+
 ## Game Design Rationale
+
+Part of the goal is to have a slower-burn antagonist, one that has less potential for sudden jumps in chaos. This way crew as a whole can like do their jobs n stuff? Detective? Idk. Words are hard. Like, it should eventually get chaotic, but in a more controlled way. Also, going for paranoia.
+Want to incentivize antagonists to do as little damage as possible so they can complete every task. Should be hard to actually get escape shuttle called while still maintaining cover.
 
 Consider addressing:
 - How does the feature align with our [Core Design Principles](../space-station-14/core-design/design-principles.md) and game philosphy?

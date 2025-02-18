@@ -7,6 +7,7 @@
 ## Overview
 
 A very short, maybe three sentence summary of what this proposal is about. A high level "overview" or "what this adds".
+A new team antagonist that encourages non-violent, stealth-y, social gameplay in order to suceed. Conspiracy designates several players as conspirators who must work together to accomplish a series of increasingly difficult tasks. Conspirators and crew alike are made to operate in an initially low-information environment and must use social deduction to work out who they can trust.
 
 ## Background
 

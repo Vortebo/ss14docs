@@ -25,7 +25,7 @@ Reiterate the overview. Will probably work best without other antags running at 
 
 ### Conspirators
 
-Some number of conspirators are selected; same selection pool as for traitor/thief (may need to make sure they're not all in one department or too evenly spread out) (though honestly it might be kinda funny if it's all one department). One person is the head conspirator. They get all the goals and have to tell the rest of the group what those goals are. Every conspirator also gets either a clue to one other conspirator (just department, department and like first initial) or just gets told who one other person is.
+Some number of conspirators are selected; same selection pool as for traitor/thief (may need to make sure they're not all in one department or too evenly spread out) (though honestly it might be kinda funny if it's all one department). One person is the head conspirator. They get all the goals and have to tell the rest of the group what those goals are. Every conspirator gets told how many total of them there are, and also gets either a clue to one other conspirator (just department, department and like first initial) or just gets told who one other person is.
 
 The conspirators must complete a series of tasks and then escape to centcomm alive and unrestrained. Major victory when that happens. Minor victories when at least one level two task is completed and/or some number of conspirators make it to centcomm. Crew victory when every conspirator is dead or detained. Tasks come in (three?) difficulties. Complete (three?) level one tasks to move to level two. Two levels twos to level three. X level three to finish the series. Level 1 explicitly requires every conspirator to participate, to make sure people come together; they should be things that are reasonably innocuous in isolation / could be done by anyone. Level 2 should escalate: things that _maybe_ normally would happen but would raise eyebrows in the best of circumstances. Level 3 is crimes.
 
@@ -38,6 +38,8 @@ Level 1
 - Everybody must possess X number of [item]
   - Items could include medkits,
 - Hang out in/near [department] together and scream
+- Everyone flushes themselves in a disposals thing
+- Everyone plays a song in the same band
 - ?
 
 Level 2
@@ -77,7 +79,7 @@ Consider addressing:
 - If the feature is a new antagonist, how does it fit into the corresponding [design pillars](../space-station-14/round-flow/antagonists.md)?
 -->
 
-Part of the goal is to have a slower-burn antagonist, one that has less potential for sudden jumps in chaos. This way crew as a whole can like do their jobs n stuff? Detective? Idk. Words are hard. Like, it should eventually get chaotic, but in a more controlled way. Also, going for paranoia.
+Part of the goal is to have a slower-burn antagonist, one that has less potential for sudden large jumps in chaos (versus a traitor setting off a bomb). This way crew as a whole can like do their jobs n stuff? Detective? Idk. Words are hard. Like, it should eventually get chaotic, but in a more controlled way. Also, going for paranoia.
 Want to incentivize antagonists to do as little damage as possible so they can complete every task. Should be hard to actually get escape shuttle called while still maintaining cover.
 
 Kinda want to encourage the detective as an important element of a crew victory.

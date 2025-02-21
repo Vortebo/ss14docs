@@ -36,7 +36,8 @@ Level 1
 - Everybody hugs the captain (3x times?)
 - Graffitti [word] outside [department]. Everyone must contribute one letter
 - Everybody must possess X number of [item]
-  - Items could include medkits, 
+  - Items could include medkits,
+- Hang out in/near [department] together and scream
 - ?
 
 Level 2
@@ -54,6 +55,7 @@ Level 3
   - Space the closet? Though given how easily trapped crew members could bring down entire conspiracy if let go, followup probably doesn't need to be specified
 - Everybody eats one of the captain's organs
 - Place four hamburgers in the vault
+- Team EVA outing!
 - ?
 
 ### Crew

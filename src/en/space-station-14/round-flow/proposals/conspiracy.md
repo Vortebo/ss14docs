@@ -101,10 +101,14 @@ Consider addressing:
 - How are the rules enforced mechanically by way the feature will be implemented?
 -->
 
-# Technical Considerations
+The gamemode does not have greater potential for rule issues or player disputes than any existing gamemode.
+
+## Technical Considerations
 
 <!--
 - Are there any anticipated performance impacts?
 - Does the feature require new systems, UI elements, or refactors of existing ones?
 - For required UI elements, give a short description or a mockup of how they should look like (for example a radial menu, actions & alerts, navmaps, or other window types)
 -->
+
+I'm not actually familiar enough with how the game functions to know for certain, but my guess is that not every suggested goal currently can be checked using the systems in place for e.g. checking traitor goals; new checks would have to be implemented. Any check needed would presumably be no more resource-intense than existing ones, and since there would only be one running at any given time it seems very unlikely that performance would be negatively impacted.

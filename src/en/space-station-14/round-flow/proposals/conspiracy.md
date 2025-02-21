@@ -31,7 +31,7 @@ The conspirators must complete a series of tasks and then escape to centcomm ali
 
 **Conspirator Goals**
 
-Level 1  
+Level 1: Teambuilding
 
 - Everybody hugs the captain (3x times?)
 - Graffitti [word] outside [department]. Everyone must contribute one letter
@@ -42,7 +42,7 @@ Level 1
 - Everyone plays a song in the same band
 - ?
 
-Level 2
+Level 2: Pranks
 - 50% of hallways must be covered in liquid
 - Everyone has all access
 - Switch/rename beacons
@@ -51,14 +51,19 @@ Level 2
   - Different from level 1 goal bcuz
 - ?
 
-Level 3
+Level 3: iunno
+- Place four hamburgers in the vault
+- Team EVA outing!
+- ?
+
+Level 4: Sabotage
+- Snip one HV cable each
+
+Level 5: Interpersonal Violence
 - Weld crewmembers [person 1] - [person ?3?] in the same closet, alive
   - Maybe not specific crew members cuz I can see RNG / round circumstances having the potential to make that arbitrarily difficult
   - Space the closet? Though given how easily trapped crew members could bring down entire conspiracy if let go, followup probably doesn't need to be specified
 - Everybody eats one of the captain's organs
-- Place four hamburgers in the vault
-- Team EVA outing!
-- ?
 
 ### Crew
 

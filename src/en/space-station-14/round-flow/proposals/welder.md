@@ -38,7 +38,7 @@ Also, while in spectal mode, can speak locally (originating from Eye) in the voi
 
 ### Corporeal Mode
 
-Can only exist where it's dark enough; takes damage from being in the light. Damage multiplier starts at 0x but that ramps up exponentially with each hit, though it also cools down quickly after a long enough time without getting hit. Can only heal by switching back into spectral mode. Slashing lights adds any resulting dark-enough area to the domain, and also gets you some Spooky Points. Can only be seen by the Seeded. Can only attack the Seeded. Attack does like 75% stun damage per hit plus bleed. Specific action to harvest the Seeded's soul, ala Spooky Ghost Antag. Gets you hella Spooky Points. Can abandon to spectral mid-harvest but permanently loses seed; does come with a cool disappearing effect though. If killed in corporeal, you lose. RIP you. You do respawn at CC for the post-credits stinger, though!
+Can only exist where it's dark enough; takes damage from being in the light. Damage multiplier starts at 0x but that ramps up exponentially with each hit, though it also cools down quickly after a long enough time without getting hit. Can only heal by switching back into spectral mode. Slashing lights adds any resulting dark-enough area to the domain, and also gets you some Spooky Points. Can only be seen by the Seeded. Can only attack the Seeded. Attack does like 75% stun damage per hit plus bleed. Specific action to harvest the Seeded's soul, ala Spooky Ghost Antag. Gets you hella Spooky Points. Can abandon to spectral mid-harvest but permanently loses seed; does come with a cool disappearing effect though. Become visible and vulnerable during kill time. If killed in corporeal, you lose. RIP you. You do respawn at CC for the post-credits stinger, though!
 
 ### The chaplain.
 
@@ -51,6 +51,9 @@ These are available in both spectral and corporeal modes.
 - Spooky Locker Time: When the Seeded gets in a locker, they get bluespaced to your designated spooky locker. Gives Welder a pop-up notification when it happens.
 - Make Lights Flicker: Makes lights flicker.
 - Pew Pew Lights: Makes lights explode, converting area to corrupted domain if possible. Maybe also happens to transgressors when triggered. Costs a lot.
+- Make 'em be asleepy times: ya
+- Teleport to the locker: you teleport to the indicated locker near to the boi
+- Improved Light Resistance: survive in the light longer so you can bust out of a locker and drag your sleeping victim into the darkness
 
 also it gets super powers on relic also relIC IS GOOD
 

@@ -10,7 +10,7 @@ welder
 
 ## Background
 
-welder
+A brief history of the Welder in various SS13 servers. This design is going in a slightly different direction because I misremembered some of this history and figured I had to reinvent the wheel, oops.
 
 ## Features to be added
 

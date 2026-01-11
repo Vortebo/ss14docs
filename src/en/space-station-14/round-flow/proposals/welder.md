@@ -6,7 +6,7 @@
 
 ## Overview
 
-welder
+The Welder is a territory control gamemode disguised as a slasher villian.
 
 ## Background
 

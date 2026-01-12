@@ -18,7 +18,7 @@ A brief history of the Welder in various SS13 servers. This design is going in a
 
 The Welder is a roundstart antagonist and a subgamemode. It starts in a random part of maints. The Welder has two major focuses: expanding its domain, and punishing those who transgress its domain. The more Spooky Actions performed before a transgressor is killed, the higher the multiplier for the Spooky Points earned upon killing them. Points are used for purchasing additional Spooky Actions and other powers. Welder needs to be able to see in dark - and differentiate b/w light and dark - in either mode.
 
-The corrupted domain is the area the Welder directly controls. Some amount of maints surrounding the Welder's spawn location should start already under its control. The Corrupted Domain has several important effects. First, it becomes invisible to the AI. Second, any players who enter it become transgressors. Third, radio doesn't work (neither do coords?). As the Welder's kill count increases, the corrupted domain looks increasingly spooky (starting after the fourth kill). If entire domain is gotten rid of by crew, that's a full loss.
+The corrupted domain is the area the Welder directly controls. Some amount of maints surrounding the Welder's spawn location should start already under its control. The Corrupted Domain has several important effects. First, it becomes invisible to the AI. Second, any players who enter it become transgressors. Third, radio doesn't work (neither do coords?). Any non-holy lightbulbs that get installed in the domain blow up - should not blow a hole in a wall but should severly slow whoever tried to install the bulb. As the Welder's kill count increases, the corrupted domain looks increasingly spooky (starting after the fourth kill). If entire domain is gotten rid of by crew, that fully kills the Welder.
 
 The Welder starts in spectral mode, which is basically an AI Eye which initially can only see the corrupted domain. There are several powers and buffs available for purchase which can only be used in spectral mode:
 - Portals: Invisible to other players, these portals are used to disorient any soul unfortunate enough to enter the corrupted domain.
@@ -29,7 +29,7 @@ The Welder starts in spectral mode, which is basically an AI Eye which initially
 - Possession: victim gets the flashbang effect for the duration
 - ?
 
-As for corporeal mode. Can only enter where it's dark enough; takes damage from being in the light. Damage multiplier (for damage other than light) starts at 0x but that ramps up exponentially with each hit, though it also cools down quickly after a long enough time without getting hit. Can only heal by switching back into spectral mode. Slashing lights adds any resulting dark-enough area to the domain, and also gets you some Spooky Points. Can only attack transgressors. Attack does like 75% stun damage per hit plus bleed. Specific action to harvest a transgressor's soul, ala Spooky Ghost Antag. Gets you hella Spooky Points. Turns off coords. Prevents revival (seems rude but like)? Can abandon to spectral mid-harvest but would-be victim becomes permantently immune; does come with a cool disappearing effect though. If killed in corporeal, you lose, but also you respawn at CC for the post-credits stinger. Only one movement speed, somewhere between normal walk and run; doesn't get any movement penalties. Cannot speak locally, just grunts.
+As for corporeal mode. Can only enter where it's dark enough; takes damage from being in the light. Damage multiplier (for damage other than light) starts at 0x but that ramps up exponentially with each hit, though it also cools down quickly after a long enough time without getting hit. Can only heal by switching back into spectral mode. Slashing lights adds any resulting dark-enough area to the domain, and also gets you some Spooky Points. Can only attack transgressors. Attack does like 75% stun damage per hit plus bleed. Specific action to harvest a transgressor's soul, ala Spooky Ghost Antag. Gets you hella Spooky Points. Turns off coords. Prevents revival (seems rude but like)? Can abandon to spectral mid-harvest but would-be victim becomes permantently immune; does come with a cool disappearing effect though. If killed in corporeal, Welder is banished and can no longer be corporal or use most powers for rest of the round, but can ride the evac shuttle to CC for the post-credits stinger (if domain isn't fully removed) (basically a glorifed spectator ghost, so maybe they also get dead chat). Only one movement speed, somewhere between normal walk and run; doesn't get any movement penalties. Stompy boi (probably falls off very quickly with distance though). Cannot speak locally, just grunts.
 
 Powers/buffs specific to corporeal mode:
 - Improved Light Resistance: survive in the light longer so you can bust out of a locker and drag your sleeping victim into the darkness. Passive ability but you get the idea.
@@ -51,7 +51,17 @@ Chaplain gets something to do! Summon welder can happen after examining five vic
 
 Transgressors can be seen be chaplain if chaplain does something or other that probably puts them at or near crit. And probably only the ones actually in view at the time. 
 
-Grind up a Bible to get a new thing called Holyase. Used to make lightbulbs that, when installed within the corrupted domain, reverts control back to the station. Normal lightbulbs, like, immediately blow up. Or something.
+Grind up a Bible to get a new thing called Holyase. Used to make lightbulbs that, when installed within the corrupted domain, reverts control back to the station.
+
+## Round Resolution
+
+Call shuttle at 40% station takeover?
+
+Welder major: >= 50% of station in domain
+Welder minor: no living transgressors
+Neutral: ?
+Crew minor: Welder banished, domain remains
+Crew major: No domain remains
 
 ## Game Design Rationale
 

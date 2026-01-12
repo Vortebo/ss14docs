@@ -18,38 +18,37 @@ A brief history of the Welder in various SS13 servers. This design is going in a
 
 The Welder is a roundstart antagonist and a subgamemode. It starts in a random part of maints. The Welder has two major focuses: expanding its domain, and punishing those who transgress its domain. The more Spooky Actions performed before a transgressor is killed, the higher the multiplier for the Spooky Points earned upon killing them. Points are used for purchasing additional Spooky Actions and other powers.
 
-The corrupted domain is the area the Welder directly controls. Some amount of maints surrounding the Welder's spawn location should start already under its control. The corrupted domain has several important effects. First, it becomes invisible to the AI. Second, any players who enter it become transgressors. Third, neither radio nor suit coordinates work. Finally, any non-holy lightbulbs that get installed in the domain blow up; the explosion shouldn't blow a hole in a wall but should severly slow whoever tried to install the bulb. After the Welder's fourth kill, the corrupted domain looks increasingly spooky. If the entire domain is recovered by the crew, the Welder stops existing.
-
-The Welder starts in spectral mode, essentially an AI Eye which (initially) only sees the corrupted domain. There are several powers and buffs available for purchase using Spooky Points which can only be used in spectral mode:
-- Portals: Invisible to other players, these portals are used to disorient any soul unfortunate enough to enter the corrupted domain.
-- Spooky Locker: The destination locker that a transgressor can be teleported to through the use of the Spooky Locker Grab 'Em and Pull 'Em Into the Bad Place ability. (this is the same ability, just you can only designate from spectral)
-- Far sight: See some amount of area around transgressors
-- Teleport to a non-spooky locker, making it spooky: you teleport to the indicated locker near to a transgressor. Become corporeal within of the locker. Like. You right click on the locker. Y'know?
-- Spooky voice: speak locally (originating from Eye for travel purposes, but only appears in chat window) in the voice of any victims. Blood loss effect is added to victim's voice.
-- Possession: victim gets the flashbang effect for the duration (Spooky Action)
-- Make 'em be asleepy times: ya (maybe needs to be in light to work) (Spooky Action)
-- Locked doors: specific victim loses all access for a period of time (Spooky Action)
-- ?
+The Welder starts in spectral mode, essentially an AI Eye which (initially) only sees the corrupted domain. The corrupted domain is the area the Welder directly controls. Some amount of maints surrounding the Welder's spawn location should start already under its control. The corrupted domain has several important effects. First, it becomes invisible to the AI. Second, any players who enter it become transgressors. Third, neither radio nor suit coordinates work. Finally, any non-holy lightbulbs that get installed in the domain blow up; the explosion shouldn't blow a hole in a wall but should severly slow whoever tried to install the bulb. After the Welder's fourth kill, the corrupted domain looks increasingly spooky. If the entire domain is recovered by the crew, the Welder stops existing.
 
 The Welder is capable of entering corporeal mode, appearing as a Scary Dude. This can only be performed in dark enough areas, and if the Welder is exposed to bright enough light while corporeal, it takes steady damage; at roundstart they shouldn't be able to survive for more than a few seconds, enough to realize and fix their mistake. All other damage types are affected by a damage multiplier which starts at 0x but ramps up exponentially with each hit, though it also cools down quickly after a long enough time without getting hit. The corporeal body can only be healed by returning to spectral form. The Welder has only one movement speed, somewhere between a normal walk and run. It doesn't get any movement penalties. It should create a stomping sound which is only audible for players a few tiles away. The Welder cannot speak locally and just grunts instead.
 
 While corporeal, the Welder can slash lights to break them; doing this adds any resulting dark-enough area to the domain, and also earns Spooky Points. The Welder can only attack transgressors; its attack does a large amount of stun damage (enough to possibly escape after one hit but to be doomed after two), plus bleed. A context-menu action allows the player to harvest a transgressor's soul, a process similar to the Revenant. Doing this is the main way to earn Spooky Points. A successful harvest turns off suit coordinates and (possibly?) prevents revival. The Welder can abandon to spectral mid-harvest, but the would-be victim becomes permanently immune; does so does come with a cool disappearing effect, though. If killed while corporeal, the Welder is banished and can no longer become corporal or use most powers for rest of the round. However, it can ride the evac shuttle to CC for the post-credits stinger, as long as its domain isn't fully removed - this would be basically a glorifed spectator ghost, so maybe they also get dead chat.
 
-The buffs available for corporeal mode are
-- Light Resistance: survive in the light longer, enabling short excursions to attack victims or increase territory.
-- Improved Light Resistance: Light Resistance but even more. Very late-game, allows Welder to chase someone down an entire hallway with time to spare.
-- Run: Movement speed becomes faster than normal run. Also late-game.
-- ?
+In either mode, the Welder needs to be able to see well in the dark, and needs to know what areas are too bright and what are part of its domain. I do not have an interesting visual in mind at this time.
 
-In either mode, the Welder needs to be able to see well in the dark, and needs to know what areas are too bright and what are part of its domain. I do not have an interesting visual in mind at this time. Also, powers/buffs usable from both modes:
-- YOu're Beaing --watched-- heard: Hear everything transgressors hear
-- Spooky Locker Time: When (any transgressor or specific victim?) gets in a locker, they get bluespaced to your designated spooky locker. Gives Welder a notification when it happens.
-- Make Lights Flicker: Makes lights around (everyone or specific victim?) flicker.
-- Pew Pew Lights: Makes lights around everyone explode, converting area to corrupted domain if possible. Costs a lot.
-- Illness: all transgressors get the same effect at once. Effect is random (vomit, metallic taste, etc.)
-- Begins the spooky messages: specific victim will now start getting spooky messages every so often
-- Improved spooky voice: can also speak over radio
-- ?
+Some possible powers and buffs for the Welder to purchase:
+| Power/Buff | Effect | Usable In | Cost | Spooky Action |
+|---|---|---|---|---|
+| Portals | Place sets of portals within domain; portals are invisible to other players | Spectral | Mid | Yes (when player goes through one, once per kill) |
+| Spooky Locker | Designate a destination locker that any transgressor will now be bluespaced to when they get shut in a locker. Welder gets non-pop-up notification | Spectral | Mid | Yes (when player goes through one, once per kill) |
+| Far Sight | See some amount of area around transgressors | Spectral | Mid | No |
+| Emerge | Corporealize within the indicated locker | Spectral | Mid | Yes |
+| Spooky Voice | Speak locally in the voice of any victims. Blood loss effect added, only appears in chat window | Spectral | Low | No |
+| Possess | Briefly possess transgressor; victim gets flashbang effect for the duration | Spectral | Mid | Yes |
+| Sleep | Makes a victim in a bright enough area fall asleep | Spectral | Mid | Yes |
+| Trap | Briefly removes all accesses from a victim | Spectral | Mid | Yes |
+| Haunt | A specific victim gets a spooky message | Spectral | Low | Yes |
+| Puppet | Make an object say something | Spectral | Low | Yes |
+| Manipulate | Make an un-anchored object move | Spectral | Mid | Yes |
+| Shhh | Briefly mutes a victim | Spectral | Low | Yes |
+| Light Resistance | Survive in the light longer, enabling short excursions to attack victims or increase territory | Corporeal | Mid | No |
+| Improved Light Resistance | Enough time to chase someone down a hallway | Corporeal | High | No |
+| Run | Movement speed becomes faster than normal run | Corporeal | High | No |
+| Listen | Hear everything transgressors hear | Both | Mid | No |
+| Boo! | Spectator Boo! action occurs for every transgressor | Both | Low | Yes |
+| Mass Corruption | Lights around all transgressors explode, converting area to corrupted domain if possible | Both | High | Yes |
+| Illness | All transgressors get the same effect at once. Effect is random (vomit, metallic taste, etc.) | Both | Low | Yes |
+| Improved Spooky Voice | Allows speaking over radio | Both | Mid | No |
 
 ### The Chaplain
 
@@ -57,7 +56,7 @@ Chaplain gets something to do! Summon welder can happen after examining five vic
 
 Transgressors can be seen be chaplain if chaplain does something or other that probably puts them at or near crit. And probably only the ones actually in view at the time. 
 
-Grind up a Bible to get a new thing called Holyase. Used to make lightbulbs that, when installed within the corrupted domain, reverts control back to the station.
+Grind up a Bible to get a new thing called Holyase. Used to make lightbulbs that, when installed _within_ the corrupted domain, reverts control back to the station.
 
 ## Round Resolution
 
@@ -71,11 +70,13 @@ Call shuttle at 40% station takeover?
 
 ## Game Design Rationale
 
-The Welder is actually a territory control gamemode in disguise. Early Spooky Points are earned by expanding domain, and late-round abilities decrease the fog of war, increase domain size, and ease travel through enemy territory. Many other abilities are focused on getting victims into the domain and making it hard for anyone to get back out alive. The crew's first counterplays when the Welder is noticed are identifying the domain, preventing additional travel through it, and shrinking its size; directly forcing an armed confrontation with the Welder requires either investigating enough corpses to summon it or a misplay on the Welder's part. Should be sub game mode because X. Should be roundstart because Y.
+The Welder is actually a territory control gamemode in disguise. Early Spooky Points are earned by expanding domain, and later abilities decrease the fog of war, increase domain size, and ease travel through enemy territory. Many other abilities are focused on getting victims into the domain and making it hard for anyone to get back out alive. The crew's first counterplays when the Welder is noticed are identifying the domain, preventing additional travel through it, and shrinking its size; directly forcing an armed confrontation with the Welder requires either investigating enough corpses to summon it or a misplay on the Welder's part. Should be sub game mode because X. Should be roundstart because Y.
 
 A serial killer stalking maints is a natural addition to the game. It's already generally accepted that going into maints alone is risking life and limb. The Welder provides additional reason to be cautious about such activities, as well as greater incentive to bring a light source with you if you're intent on going anyway. It should not, however, be too discouraging, as the Welder should be fairly easy to outrun and enough people should be trampsing through its domain that they have plenty of time in the round between transgressing and the Welder actually coming for them.
 
 Intro to this paragraph. The corrupted domain provides increased ambiguity about the cause of a loss of AI cameras and smashed lights. Several of the obtainable powers are also meant to give players pause about e.g. flickering lights, bluespace lockers, and alcoholism. At the same time, many of the powers encourage working together, e.g. being aware of if their coworkers have gone missing or if anyone else is experiencing illness at literally the exact same time (presumably unlikely even if/when virology returns).
+
+The Welder is meant to pick crew members off one by one. To this end, it isn't meant to be particularly robust in combat. Instead, its powerset is meant to encourage the player to both quickly deal with folks who wander into their lair and plan efficient, aggressive actions against their list of targets. A very successful Welder becomes better able to make a lot of noise, but doesn't become any less vulnerable to a clown with a gun.
 
 ## Roundflow & Player interaction
 

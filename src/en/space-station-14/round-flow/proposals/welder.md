@@ -10,7 +10,7 @@ The Welder is a roundstart antagonist aimed at evoking the feel of a slasher mov
 
 ## Background
 
-A brief history of the Welder in various SS13 servers. This design is going in a slightly different direction because I misremembered some of this history and figured I had to reinvent the wheel, oops.
+Named after the character in Yahtzee Crowshaw's _Chzo Mythos_ series, the Welder is a character that popped up in SS13 over a decade ago. According to the Goonstation wiki, it was made sometime around 2012, but I swear it must have existed prior to 2010. In any case, it's been removed, re-added, and entirely replaced over the years. This version is partly based on those others, and partly going in a different direction because I misremembered and thought the role had been deleted due to just not being fun, requiring a redesign (apparently the actual reason was spaghetti code).
 
 ## Features to be added
 
@@ -30,7 +30,7 @@ Some possible powers and buffs for the Welder to purchase:
 | Power/Buff | Effect | Usable In | Cost | Spooky Action |
 |---|---|---|---|---|
 | Portals | Place sets of portals within domain; portals are invisible to other players | Spectral | Mid | Yes (when a player goes through one) |
-| Spooky Locker | Designate a destination locker that any transgressor will now be bluespaced to when they get shut in a locker. Welder gets non-pop-up notification | Spectral | Mid | Yes (when activated) |
+| Spooky Locker | Designate a destination locker within domain that any transgressor will now be bluespaced to when they get shut in a locker. Welder gets non-pop-up notification | Spectral | Mid | Yes (when activated) |
 | Far Sight | See some amount of area around transgressors | Spectral | Mid | No |
 | Emerge | Corporealize within the indicated locker | Spectral | Mid | Yes |
 | Spooky Voice | Speak locally in the voice of any victims. Blood loss effect added, only appears in chat window | Spectral | Low | No |
@@ -52,11 +52,11 @@ Some possible powers and buffs for the Welder to purchase:
 
 ### The Chaplain
 
-Chaplain gets something to do! Summon welder can happen after examining five victim's bodies? Means they get called to crime site like detective, which would be neat. Summoning ritual forces welder to be corporeal at location, and can't spectralify for a bit, so, y'know. Shoot them.
+By using their bible on enough of the Welder's victims, the chaplain gains the ability to summon the Welder. Once this ritual is performed, the Welder is unable to return to spectral form for a length of time; for that duration, they also lose any buffs they may have purchased.
 
-Transgressors can be seen be chaplain if chaplain does something or other that probably puts them at or near crit. And probably only the ones actually in view at the time. 
+After the first or second victim investigated, when the chaplain summons their familiar, they get Cerberus instead of Remilia. The chaplain also gains an ability that lets them temporarily see who among the crew have transgressed, though doing so puts their health just above crit. When enough victims have been investigated to enable the summoning ritual, the bible sprite ought to change to something real evil-looking.
 
-Grind up a Bible to get a new thing called Holyase. Used to make lightbulbs that, when installed _within_ the corrupted domain, reverts control back to the station.
+Holy water can be used in a crafting recipe to make holy lightbulbs that, when installed _within_ the corrupted domain, reverts control back to the station.
 
 ## Round Resolution
 

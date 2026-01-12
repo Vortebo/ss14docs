@@ -57,11 +57,11 @@ Grind up a Bible to get a new thing called Holyase. Used to make lightbulbs that
 
 Call shuttle at 40% station takeover?
 
-Welder major: >= 50% of station in domain
-Welder minor: no living transgressors
-Neutral: ?
-Crew minor: Welder banished, domain remains
-Crew major: No domain remains
+- Crew major: No domain remains. The happy ending, where the monster is truly defeated and the studio doesn't demand sequels.
+- Crew minor: Welder banished, domain remains. The canon ending, where the final girl survives just long enough for the next movie to start.
+- Neutral: Other conditions don't get met. I can't think of an analogy.
+- Welder minor: no living transgressors. Every character got got, but there's more 20-somethings out there.
+- Welder major: >= 50% of station in domain. End of the world, real downer of a movie.
 
 ## Game Design Rationale
 

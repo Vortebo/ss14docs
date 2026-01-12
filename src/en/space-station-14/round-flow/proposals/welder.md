@@ -16,7 +16,7 @@ A brief history of the Welder in various SS13 servers. This design is going in a
 
 ### The Welder
 
-The Welder is a roundstart antagonist and a subgamemode. It starts in a random part of maints. The Welder has two major focuses: expanding its domain, and punishing those who transgress its domain. The more Spooky Actions performed before a transgressor is killed, the higher the multiplier for the Spooky Points earned upon killing them. Points are used for purchasing additional Spooky Actions and other powers.
+The Welder is a roundstart antagonist and a subgamemode. It starts in a random part of maints. The Welder has two major focuses: expanding its domain, and punishing those who transgress its domain. The more (unique?) Spooky Actions performed before a transgressor is killed, the higher the multiplier for the Spooky Points earned upon killing them. Points are used for purchasing additional Spooky Actions and other powers.
 
 The Welder starts in spectral mode, essentially an AI Eye which (initially) only sees the corrupted domain. The corrupted domain is the area the Welder directly controls. Some amount of maints surrounding the Welder's spawn location should start already under its control. The corrupted domain has several important effects. First, it becomes invisible to the AI. Second, any players who enter it become transgressors. Third, neither radio nor suit coordinates work. Finally, any non-holy lightbulbs that get installed in the domain blow up; the explosion shouldn't blow a hole in a wall but should severly slow whoever tried to install the bulb. After the Welder's fourth kill, the corrupted domain looks increasingly spooky. If the entire domain is recovered by the crew, the Welder stops existing.
 
@@ -29,8 +29,8 @@ In either mode, the Welder needs to be able to see well in the dark, and needs t
 Some possible powers and buffs for the Welder to purchase:
 | Power/Buff | Effect | Usable In | Cost | Spooky Action |
 |---|---|---|---|---|
-| Portals | Place sets of portals within domain; portals are invisible to other players | Spectral | Mid | Yes (when player goes through one, once per kill) |
-| Spooky Locker | Designate a destination locker that any transgressor will now be bluespaced to when they get shut in a locker. Welder gets non-pop-up notification | Spectral | Mid | Yes (when player goes through one, once per kill) |
+| Portals | Place sets of portals within domain; portals are invisible to other players | Spectral | Mid | Yes (when a player goes through one) |
+| Spooky Locker | Designate a destination locker that any transgressor will now be bluespaced to when they get shut in a locker. Welder gets non-pop-up notification | Spectral | Mid | Yes (when activated) |
 | Far Sight | See some amount of area around transgressors | Spectral | Mid | No |
 | Emerge | Corporealize within the indicated locker | Spectral | Mid | Yes |
 | Spooky Voice | Speak locally in the voice of any victims. Blood loss effect added, only appears in chat window | Spectral | Low | No |

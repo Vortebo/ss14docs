@@ -32,7 +32,7 @@ Some possible powers and buffs for the Welder to purchase:
 | Portals | Place sets of portals within domain; portals are invisible to other players | Spectral | Mid | Yes (when a player goes through one) |
 | Spooky Locker | Designate a destination locker within domain that any transgressor will now be bluespaced to when they get shut in a locker. Welder gets non-pop-up notification | Spectral | Mid | Yes (when activated) |
 | Far Sight | See some amount of area around transgressors | Spectral | Mid | No |
-| Emerge | Corporealize within the indicated locker | Spectral | Mid | Yes |
+| Emerge | Corporealize within a locker, regardless of light level | Spectral | Mid | Yes |
 | Spooky Voice | Speak locally in the voice of any victims. Blood loss effect added, only appears in chat window | Spectral | Low | No |
 | Possess | Briefly possess transgressor; victim gets flashbang effect for the duration | Spectral | Mid | Yes |
 | Sleep | Makes a victim in a bright enough area fall asleep | Spectral | Mid | Yes |
@@ -49,6 +49,9 @@ Some possible powers and buffs for the Welder to purchase:
 | Mass Corruption | Lights around all transgressors explode, converting area to corrupted domain if possible | Both | High | Yes |
 | Illness | All transgressors get the same effect at once. Effect is random (vomit, metallic taste, etc.) | Both | Low | Yes |
 | Improved Spooky Voice | Allows speaking over radio | Both | Mid | No |
+| Open Door | Can open any door | Both | Low | Yes (when spectral and seen by a transgressor) |
+
+In general, powers ought to have cooldowns.
 
 ### The Chaplain
 
@@ -58,42 +61,34 @@ After the first or second victim investigated, when the chaplain summons their f
 
 Holy water can be used in a crafting recipe to make holy lightbulbs that, when installed _within_ the corrupted domain, reverts control back to the station.
 
-## Round Resolution
-
-Call shuttle at 40% station takeover?
-
-- Crew major: No domain remains. The happy ending, where the monster is truly defeated and the studio doesn't demand sequels.
-- Crew minor: Welder banished, domain remains. The canon ending, where the final girl survives just long enough for the next movie to start.
-- Neutral: Other conditions don't get met. I can't think of an analogy.
-- Welder minor: no living transgressors. Every character got got, but there's more 20-somethings out there.
-- Welder major: >= 50% of station in domain. End of the world, real downer of a movie.
-
 ## Game Design Rationale
 
-The Welder is actually a territory control gamemode in disguise. Early Spooky Points are earned by expanding domain, and later abilities decrease the fog of war, increase domain size, and ease travel through enemy territory. Many other abilities are focused on getting victims into the domain and making it hard for anyone to get back out alive. The crew's first counterplays when the Welder is noticed are identifying the domain, preventing additional travel through it, and shrinking its size; directly forcing an armed confrontation with the Welder requires either investigating enough corpses to summon it or a misplay on the Welder's part. Should be sub game mode because X. Should be roundstart because Y.
+The Welder is actually a territory control gamemode in disguise. Early Spooky Points are earned by expanding domain, and later abilities decrease the fog of war, increase domain size, and ease travel through enemy territory. Many other abilities are focused on getting victims into the domain and making it hard for anyone to get back out alive. The crew's first counterplays when the Welder is noticed are identifying the domain, preventing additional travel through it, and shrinking its size; directly forcing an armed confrontation with the Welder requires either investigating enough corpses to summon it or a misplay on the Welder's part.
 
 A serial killer stalking maints is a natural addition to the game. It's already generally accepted that going into maints alone is risking life and limb. The Welder provides additional reason to be cautious about such activities, as well as greater incentive to bring a light source with you if you're intent on going anyway. It should not, however, be too discouraging, as the Welder should be fairly easy to outrun and enough people should be trampsing through its domain that they have plenty of time in the round between transgressing and the Welder actually coming for them.
 
-Intro to this paragraph. The corrupted domain provides increased ambiguity about the cause of a loss of AI cameras and smashed lights. Several of the obtainable powers are also meant to give players pause about e.g. flickering lights, bluespace lockers, and alcoholism. At the same time, many of the powers encourage working together, e.g. being aware of if their coworkers have gone missing or if anyone else is experiencing illness at literally the exact same time (presumably unlikely even if/when virology returns).
+In order to be properly spooky, it should be difficult to metagame the Welder's existence in a round. It should provide cover for other antagonists, and other antags and in-game occurences should provide cover for it. The corrupted domain provides increased ambiguity about the cause of a loss of AI cameras and smashed lights. Several of the obtainable powers are also meant to give players pause about e.g. flickering lights, bluespace lockers, and alcoholism.
+
+Many of the Welder's powers should encourage working together, e.g. being aware of if their coworkers have gone missing or if anyone else is experiencing illness at literally the exact same time (presumably unlikely even if/when virology returns).
 
 The Welder is meant to pick crew members off one by one. To this end, it isn't meant to be particularly robust in combat. Instead, its powerset is meant to encourage the player to both quickly deal with folks who wander into their lair and plan efficient, aggressive actions against their list of targets. A very successful Welder becomes better able to make a lot of noise, but doesn't become any less vulnerable to a clown with a gun.
 
+I have tried to write the powers in a way that prevents them from being spammed sequentially in the Welder's domain without anyone seeing them to artificially bump up the point multiplier. They are generally inherently noticeable, require or are highly likely to be seen by at the very least a transgressor, or naturally lend themselves to being used for going after a transgressor anyway and hence would be saved for the actual kill attempt. Passive powers, or powers like speaking that are only useful if they can be used at will, don't count towards the bonus.
+
 ## Roundflow & Player interaction
 
-welder
+The Welder is a subgamemode because if it's the only thing happening, the slow ramp-up could lead to the round feeling like a green shift to most players. It's also liable to be very noticeably the Welder if no one else is generating chaos; while many powers should decrease metagameability, their pattern of escalation would be easily picked out. The slow ramp-up is also why Welder should be roundstart; beginning in the middle of an already chaotic station, with an armed crew, is a good way for the Welder to get shot to death by the first would-be victim.
 
-Part of text in "You are The Welder" says "Punish those who have transgressed your realm" or whatever and that's part of communicating not to bother trying to kill anyone else.
+It should be very difficult for a Welder to be friendly, as it can't talk (in its own voice), looks mean, and has powers that should push it towards violence. That said, a player could opt to de-prioritize killing in favor of just kinda messing with people. This is not necessarily a bad thing, as it should still disrupt the round, other antagonists will be active, and in order to be able to get powers in the first place the Welder _does_ need to kill someone at some point.
+
+The departments most likely to have frequent or direct interactions with the Welder are engineering, security, and service. Engineers walking through maints to set up solars are probably going to be the most frequent first victims of a Welder. Due to the Welder's ability to just not let itself be in a fight, security is not likely to be actively engaging it for the bulk of a round, but will be important when the crew actively attempts to defeat it. Service will also be prominent, via the chaplain investigating and summoning the Welder.
 
 ## Administrative & Server Rule Impact (if applicable)
 
-welder
+The Welder is disincentivized from causing excessive damage, as it only benefits from player death via its soul-harvesting power, and lesss existing station means less space to grow the domain into. Early evac would reduce the amount of time it has to grow its powers.
+
+A player deciding to help the Welder would potentially make it much easier for it to get powerful more quickly than the station can react to. This would, I think, be as likely as for a crew-aligned player to try to help any other antag, and resolvable via the same in- and out-of-game methods.
 
 ## Technical Considerations
 
-### UI
-
-fs
-
-### Other
-
-hbh
+Unsure

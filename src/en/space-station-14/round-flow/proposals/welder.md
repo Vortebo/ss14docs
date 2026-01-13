@@ -92,3 +92,5 @@ A player deciding to help the Welder would potentially make it much easier for i
 ## Technical Considerations
 
 Unsure
+
+Would probably benefit from https://github.com/space-wizards/RobustToolbox/pull/5574
